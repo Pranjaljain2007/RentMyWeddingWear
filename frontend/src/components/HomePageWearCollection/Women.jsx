@@ -9,10 +9,10 @@ import indoWesternImg from '../../assets/HomePageWearCollectionImg/women/indo_we
 
 
 const categories = [
-    { name: "gowns", image: gownImg, path: "/women/dresses/gowns" },
-    { name: "lehengas", image: lehengaImg, path: "/women/dresses/lehengas" },
-    { name: "sarees", image: sareeImg, path: "/women/dresses/sarees-blouses" },
-    { name: "Indo-Western", image: indoWesternImg, path: "/women/dresses/indo-western" },
+    { name: "gowns", image: gownImg, path: "/women/clothing/gowns" },
+    { name: "lehengas", image: lehengaImg, path: "/women/clothing/lehengas" },
+    { name: "sarees", image: sareeImg, path: "/women/clothing/sarees-blouses" },
+    { name: "Indo-Western", image: indoWesternImg, path: "/women/clothing/indo-western" },
 ];
 
 

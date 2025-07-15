@@ -89,7 +89,7 @@
 
 .not-found {
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     color: #666;
     margin-top: 40px;
 }
@@ -97,7 +97,7 @@
 .not-found {
     color: rgb(76, 60, 82);
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 

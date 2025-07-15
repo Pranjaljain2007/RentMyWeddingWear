@@ -22,11 +22,11 @@ import OrderSummary from './pages/OrderSummary/OrderSummary';
 import MenTiesBowTies from './pages/Men/Accessories/TiesBowTies';
 import MenNecklace from './pages/Men/Accessories/Necklaces';
 
-// Men Dresses
-import Bandhgalas from './pages/Men/Dresses/Bandhgalas';
-import KurtaPajamas from './pages/Men/Dresses/KurtaPajamas';
-import Suits from './pages/Men/Dresses/Suits';
-import IndoWesterns from './pages/Men/Dresses/IndoWesterns';
+// Men clothing
+import Bandhgalas from './pages/Men/Clothing/Bandhgalas';
+import KurtaPajamas from './pages/Men/Clothing/KurtaPajamas';
+import Suits from './pages/Men/Clothing/Suits';
+import IndoWesterns from './pages/Men/Clothing/IndoWesterns';
 
 // Men Occasions
 import MenEngagement from './pages/Men/Occasions/Engagement';
@@ -46,12 +46,12 @@ import WomenEarrings from './pages/Women/Accessories/Earrings';
 import WomenNecklaces from './pages/Women/Accessories/Necklaces';
 import WomenRings from './pages/Women/Accessories/Rings';
 
-// Women Dresses
-import WomenLehengas from './pages/Women/Dresses/Lehengas';
-import WomenGowns from './pages/Women/Dresses/Gowns';
-import WomenSareesBlouses from './pages/Women/Dresses/SareesBlouses';
-import WomenIndoWestern from './pages/Women/Dresses/IndoWestern';
-import WomenAnarkali from './pages/Women/Dresses/Anarkalis';
+// Women clothing
+import WomenLehengas from './pages/Women/Clothing/Lehengas';
+import WomenGowns from './pages/Women/Clothing/Gowns';
+import WomenSareesBlouses from './pages/Women/Clothing/SareesBlouses';
+import WomenIndoWestern from './pages/Women/Clothing/IndoWestern';
+import WomenAnarkali from './pages/Women/Clothing/Anarkalis';
 
 
 // Women Occasions
@@ -116,52 +116,52 @@ const App = () => {
 
 
       {/* Men's Routes */}
-      {/* Men's Dresses */}
-      <Route path="/men/dresses/bandhgalas" element={<Bandhgalas />} />
-      <Route path="/men/dresses/KurtaPajamas" element={<KurtaPajamas />} />
-      <Route path="/men/dresses/suits" element={<Suits />} />
-      <Route path='/men/dresses/indo-westerns' element={<IndoWesterns />} />;
+      {/* Men's clothing */}
+      <Route path="/men/clothing/bandhgalas" element={<Bandhgalas />} />
+      <Route path="/men/clothing/Kurtapajamas" element={<KurtaPajamas />} />
+      <Route path="/men/clothing/suits" element={<Suits />} />
+      <Route path='/men/clothing/indowesterns' element={<IndoWesterns />} />;
 
 
       {/* Men's Accessories */}
-      <Route path="/men/accessories/ties-bow-ties" element={<MenTiesBowTies />} />
-      <Route path="/men/accessories/necklace" element={<MenNecklace />} />
+      <Route path="/men/accessories/ties-bowties" element={<MenTiesBowTies />} />
+      <Route path="/men/accessories/necklaces" element={<MenNecklace />} />
 
       {/* Men's Occasions */}
-      <Route path="/men/occasions/engagement" element={<MenEngagement />} />
-      <Route path="/men/occasions/cocktail" element={<MenCocktail />} />
-      <Route path="/men/occasions/haldi" element={<MenHaldi />} />
-      <Route path="/men/occasions/mehendi" element={<MenMehendi />} />
-      <Route path="/men/occasions/reception" element={<MenReception />} />
-      <Route path="/men/occasions/sangeet" element={<MenSangeet />} />
-      <Route path="/men/occasions/wedding" element={<MenWedding />} />
+      <Route path="/men/occasion/engagement" element={<MenEngagement />} />
+      <Route path="/men/occasion/cocktail" element={<MenCocktail />} />
+      <Route path="/men/occasion/haldi" element={<MenHaldi />} />
+      <Route path="/men/occasion/mehendi" element={<MenMehendi />} />
+      <Route path="/men/occasion/reception" element={<MenReception />} />
+      <Route path="/men/occasion/sangeet" element={<MenSangeet />} />
+      <Route path="/men/occasion/wedding" element={<MenWedding />} />
 
 
       {/* Women's Routes */}
-      {/* Women's Dresses */}
-      <Route path="/women/dresses/lehengas" element={<WomenLehengas />} />
-      <Route path="/women/dresses/gowns" element={<WomenGowns />} />
-      <Route path="/women/dresses/sarees-blouses" element={<WomenSareesBlouses />} />
-      <Route path="/women/dresses/indo-western" element={<WomenIndoWestern />} />
-      <Route path="/women/dresses/anarkalis" element={<WomenAnarkali />} />
+      {/* Women's clothing */}
+      <Route path="/women/clothing/lehengas" element={<WomenLehengas />} />
+      <Route path="/women/clothing/gowns" element={<WomenGowns />} />
+      <Route path="/women/clothing/sarees-blouses" element={<WomenSareesBlouses />} />
+      <Route path="/women/clothing/indo-western" element={<WomenIndoWestern />} />
+      <Route path="/women/clothing/anarkalis" element={<WomenAnarkali />} />
 
 
       {/* Women's Accessories */}
       <Route path="/women/accessories/bags" element={<WomenBags />} />
-      <Route path="/women/accessories/bangles-bracelets" element={<WomenBanglesBracelets />} />
+      <Route path="/women/accessories/banglesbracelets" element={<WomenBanglesBracelets />} />
       <Route path="/women/accessories/earrings" element={<WomenEarrings />} />
       <Route path="/women/accessories/necklaces" element={<WomenNecklaces />} />
       <Route path="/women/accessories/rings" element={<WomenRings />} />
 
 
       {/* Women's Occasions */}
-      <Route path="/women/occasions/cocktail" element={<WomenCocktail />} />
-      <Route path="/women/occasions/engagement" element={<WomenEngagement />} />
-      <Route path="/women/occasions/haldi" element={<WomenHaldi />} />
-      <Route path="/women/occasions/mehendi" element={<WomenMehendi />} />
-      <Route path="/women/occasions/reception" element={<WomenReception />} />
-      <Route path="/women/occasions/sangeet" element={<WomenSangeet />} />
-      <Route path="/women/occasions/wedding" element={<WomenWedding />} />
+      <Route path="/women/occasion/cocktail" element={<WomenCocktail />} />
+      <Route path="/women/occasion/engagement" element={<WomenEngagement />} />
+      <Route path="/women/occasion/haldi" element={<WomenHaldi />} />
+      <Route path="/women/occasion/mehendi" element={<WomenMehendi />} />
+      <Route path="/women/occasion/reception" element={<WomenReception />} />
+      <Route path="/women/occasion/sangeet" element={<WomenSangeet />} />
+      <Route path="/women/occasion/wedding" element={<WomenWedding />} />
 
 
     </Routes>

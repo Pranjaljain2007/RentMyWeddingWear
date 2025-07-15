@@ -41,7 +41,7 @@ const CartDrawer = ({ onClose }) => {
 
         {cartItems.length === 0 ? (
           <>
-            <p>No items?! Even your bag’s starting to feel lonely.</p>
+            <p className='no-items'>No items?! Even your bag’s starting to feel lonely.</p>
             <p className="sub-desc">Let’s give it some company!</p>
             <button className="continue-btn" onClick={handleContinueShopping}>
               Continue Shopping

@@ -3,7 +3,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 40px 50px;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .feature-box {
@@ -22,6 +22,20 @@
     color: #5b5959;
 }
 
+
+@media (min-width: 1250px) and (max-width: 2100px) {
+    .features-container{
+        /* margin-top: 0rem; */
+    }
+
+    .feature-icon{
+        font-size: 45px;
+        text-align: center;
+    }
+    .feature-title{
+        font-size: 20px;
+    }
+}
 
 
 @media (min-width: 780px) and (max-width: 1250px) {
